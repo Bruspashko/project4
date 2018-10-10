@@ -39,10 +39,11 @@ tr:nth-child(even) {
   <tr>
     <th>ID</th>
     <th>Title</th>
+    <th>Artist ID</th>
   </tr>''')
     
     for row in rows:
-        rowout='''<tr><td> {} </td><td> {} </td></tr>'''.format(row[0],row[1])
+        rowout='''<tr><td> {} </td><td> {} </td><td> {} </td></tr>'''.format(row[0],row[1],row[2])
         content = content + rowout
     
     htmlclose=('''</table>
