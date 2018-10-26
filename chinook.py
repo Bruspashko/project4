@@ -24,7 +24,7 @@ table {
     table-layout:auto;
 }
 td, th {
-    border: 1px solid #dddddd;
+    border: 1px solid #ccc;
     text-align: left;
     padding: 8px;
 }
